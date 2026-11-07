@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "texturecustomizer",
+  "version": "${version}",
+  "name": "TextureCustomizer",
+  "description": "A modular client-side texture customization workspace for Minecraft 1.21.11.",
+  "authors": ["TextureCustomizer Contributors"],
+  "contact": {
+    "issues": "https://github.com/your-name/TextureCustomizer/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.texturecustomizer.TextureCustomizerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
